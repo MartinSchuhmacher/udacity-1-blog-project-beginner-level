@@ -1,6 +1,4 @@
-/* import for additional css styles */
-
-/*general style*/
+/*style for the homepage*/
 html {
     font-size: 100%;
     box-sizing: border-box;
@@ -11,8 +9,6 @@ html {
 *::after {
     box-sizing: inherit;
 }
-
-
 
 body {
     display: grid;
@@ -143,5 +139,3 @@ a:visited {
     font-size: 0.9rem;
     font-style: italic;
 }
-
-
