@@ -1,11 +1,12 @@
 /*style for the homepage*/
+
 html {
     font-size: 100%;
     box-sizing: border-box;
 }
 
-*, 
-*::before, 
+*,
+*::before,
 *::after {
     box-sizing: inherit;
 }
@@ -41,6 +42,7 @@ nav {
     border-radius: 15px;
     margin: 0 0 0.5rem 0;
     cursor: pointer;
+    background-color: #ff470fd7;
 }
 
 main {
@@ -119,7 +121,7 @@ a:visited {
     font-style: italic;
 }
 
-@media(min-width:700px) {
+@media(min-width: 700px) {
     body {
         display: grid;
         grid-template-columns: 260px repeat(2, 1fr);
@@ -130,7 +132,7 @@ a:visited {
         color: #fff;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 1.0;
-        font-size: 1.25rem;    
+        font-size: 1.25rem;
     }
     
     header {
@@ -149,7 +151,7 @@ a:visited {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
         border-radius: 15px;
-        margin: 0 1rem 0.5rem 0;
+        margin: 0 0 0.5rem 0.5rem;
     }
     
     main {
@@ -163,7 +165,7 @@ a:visited {
     }
 }
 
-@media(min-width:1180px) {
+@media(min-width: 1180px) {
     body {
         display: grid;
         grid-template-columns: 150px 250px 1fr;
@@ -174,7 +176,7 @@ a:visited {
         color: #fff;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 1.0;
-        font-size: 1.25rem;    
+        font-size: 1.25rem;
     }
     
     header {
@@ -193,7 +195,7 @@ a:visited {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
         border-radius: 15px;
-        margin: 0 1rem 0.5rem 0; 
+        margin: 0 1rem 0.5rem 0;
     }
     
     main {
@@ -207,7 +209,7 @@ a:visited {
     }
 }
 
-@media(min-width:1350px) {
+@media(min-width: 1350px) {
     .card {
         display: flex;
         flex-direction: row;
