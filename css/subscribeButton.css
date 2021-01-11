@@ -1,0 +1,28 @@
+/* style for the subscribe button linking to the form */
+
+.subscribe-button-home {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+    border-radius: 15px;
+    margin: 0 0 0.5rem 0;
+    cursor: pointer;
+    background-color: #ff470fd7;
+}
+
+@media(min-width: 700px) {
+    .subscribe-button-home {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        border-radius: 15px;
+        margin: 0 0 0.5rem 0.5rem;
+    }
+}
+
+@media(min-width: 1180px) {
+    .subscribe-button-home {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        border-radius: 15px;
+        margin: 0 1rem 0.5rem 0;
+    }
+}

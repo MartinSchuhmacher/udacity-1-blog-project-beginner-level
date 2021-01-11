@@ -1,5 +1,5 @@
 /*style for subscribe form*/
-
+/*
 html {
     font-size: 100%;
     box-sizing: border-box;
@@ -27,7 +27,6 @@ body {
 header {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    font-style: oblique;
 }
 
 nav {
@@ -38,8 +37,8 @@ nav {
 main {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
-}
-
+}*/
+/*
 footer {
     grid-column: 1 / 2;
     grid-row: 4 / 5;
@@ -82,8 +81,8 @@ input {
     font-weight: 700;
     cursor: pointer;
     border-radius: 5px;
-}
-
+}*/
+/*
 .social-footer {
     display: flex;
     flex-direction: row;
@@ -106,10 +105,10 @@ input {
     max-height: 40px;
     border-radius: 5px;
     margin: 0.5rem;
-}
+}*/
 
 @media(min-width: 1100px) {
-    body {
+    /*body {
         display: grid;
         grid-template-columns: 90px 300px auto;
         grid-template-rows: repeat(2, auto);
@@ -126,8 +125,8 @@ input {
         grid-column: 1 / 4;
         grid-row: 1 / 2;
         font-style: oblique;
-    }
-
+    }*/
+/*
     footer {
         grid-column: 1 / 2;
         grid-row: 2 / 3;
@@ -145,13 +144,13 @@ input {
 
     form {
         margin: 0;
-    }
-
+    }*/
+/*
     .social-footer {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         height: 100%;
-    }
+    }*/
 }

@@ -1,0 +1,32 @@
+/* style for all linked pages including imports */
+
+@import "body.css";
+@import "header.css";
+@import "nav.css";
+@import "subscribeButton.css";
+@import "footer.css";
+@import "mainHome.css";
+@import "mainBlog.css";
+@import "mainSubscribe.css";
+
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #b44040;
+    /*line-height: 1.5rem;*/
+}
+
+h1 {
+    font-style: oblique;
+}

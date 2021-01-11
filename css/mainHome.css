@@ -1,0 +1,143 @@
+/* style for the main area of the homepage */
+
+main.home-main {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+}
+
+.card-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 0 300px;
+    background: #fff;
+    color: #000;
+    border-radius: 5px;
+    text-decoration: none;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 2px;
+    max-width: fit-content;
+}
+
+.card-image-home {
+    width: 100%;
+    max-height: 500px;
+    max-width: 885px;
+}
+
+.card-content-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+
+.card-title-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-name-home {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.card-avatar-home {
+    border-radius: 10px;
+    height: 25px;
+    width: auto;
+}
+
+.card-description-home {
+    margin: 0.5rem 0 0 0;
+}
+
+.card-date-readtime-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    text-align: right;
+    padding: 0 1rem 0 1rem;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+@media(min-width: 700px) {
+    main.home-main {
+        grid-column: 2 / 4;
+        grid-row: 2 / 4;
+    }
+}
+
+@media(min-width: 1180px) {
+    main.home-main {
+        grid-column: 3 / 4;
+        grid-row: 2 / 4;
+    }
+}
+
+@media(min-width: 1350px) {
+    .card-home {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex: 1;
+        background: #fff;
+        color: #000;
+        border-radius: 5px;
+        text-decoration: none;
+        border-style: solid;
+        border-color: #fff;
+        border-width: 2px;
+        max-width: 1070px;
+    }
+
+    .card-image-home {
+        width: 100%;
+        height: fit-content;
+        width: auto;
+    }
+    
+    .card-content-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-content: space-between;
+        padding: 1rem;
+    }
+    
+    .card-title-home {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-avatar-home {
+        border-radius: 10px;
+        height: auto;
+        width: 35px;
+        margin: 0.5rem 0 0 0;
+    }
+    
+    .card-name-home {
+        font-size: 1.75rem;
+        font-weight: 700;
+    }
+    
+    .card-description-home {
+        margin: 0.5rem 0 0 0;
+    }
+    
+    .card-date-readtime-home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        padding: 0 1rem 0 1rem;
+        font-size: 1rem;
+        font-style: italic;
+        min-width: fit-content;
+    }
+}
