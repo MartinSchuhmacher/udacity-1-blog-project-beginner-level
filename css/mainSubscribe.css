@@ -9,7 +9,7 @@ form.subscribe-form {
     width: 450px;
     margin: 50px auto 50px auto;
     padding: 5px 20px 20px 20px;
-    background-color: #ff470fd7;
+    background-color: rgb(255, 71, 15);
     border-radius: 12px;
 }
 
@@ -35,6 +35,17 @@ input.subscribe-input {
     font-weight: 700;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.welcome-screen {
+    width: 100%;
+    max-height: 140px;
+    max-width: 400px;
+}
+
+.caption-text {
+    font-size: 0.8rem;
+    text-align: center;
 }
 
 @media(min-width: 1100px) {
