@@ -20,12 +20,6 @@ html {
     box-sizing: inherit;
 }
 
-a,
-a:visited {
-    text-decoration: none;
-    color: #b44040;
-}
-
 h1 {
     font-style: oblique;
 }

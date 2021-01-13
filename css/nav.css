@@ -11,11 +11,45 @@ nav.subscribe-nav {
     grid-row: 2 / 3;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 10px 10px 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+li a {
+    display: block;
+    color: #b44040;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+    border-style: ridge;
+    border-color: #333;
+}
+
+li a:hover {
+    background-color: #333;
+}
+
+@media(max-width: 699px) {
+    li {
+        float: left;
+    }
+}
+
 @media(min-width: 700px) {
     nav.home-nav {
         grid-column: 1 / 2;
         grid-row: 3 / 4;
         line-height: 1.0;
+    }
+}
+
+@media(max-width: 1099px) {
+    li.subscribe-li {
+        float: left;
     }
 }
 
