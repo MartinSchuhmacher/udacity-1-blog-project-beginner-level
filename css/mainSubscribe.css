@@ -48,6 +48,18 @@ input.subscribe-input {
     text-align: center;
 }
 
+@media(max-width: 699px) {
+    input.subscribe-input {
+        font-size: 18px;
+        width: 150px;
+    }
+
+    form.subscribe-form {
+        width: 300px;
+        margin: 0 auto 0 auto;
+    }
+}
+
 @media(min-width: 1100px) {
     main.subscribe-main {
         grid-column: 3 / 4;

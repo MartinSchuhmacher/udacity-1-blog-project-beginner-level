@@ -80,6 +80,7 @@ body.subscribe-body {
         line-height: 1.0;
         font-size: 1.25rem;
     }
+}
 
 @media(min-width: 1180px) {
     body.home-body {
@@ -109,3 +110,4 @@ body.subscribe-body {
         line-height: 1.0;
         font-size: 1.25rem;
     }
+}
